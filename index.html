@@ -2,94 +2,84 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1,
-  maximum-scale=5"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
 
     <link rel="icon" href="devchallenges.png" />
 
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="https://devchallenges.io/"
+    <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/"
     />
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
 
+    <link rel="stylesheet" href="./css/styles.css" />
+    
     <title>Devchallenges</title>
 
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
-
-      ul {
-        padding-left: 24px;
-      }
-
-      li {
-        margin-bottom: 8px;
-      }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
   </head>
   <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
-
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
+    <header class="header">
+      <h1 class="header_primary-title">The creative crew</h1>
+      <div class="header_desktop-right">
+        <h2 class="header_secondary-title">Who we are</h2>
+        <p class="header_description">
+          We are team of creatively diverse. driven. innovative individuals working in various locations from the world.
         </p>
       </div>
+    </header>
+    
+    <main class="main-section">
+      <section class="person-card">
+        <div class="img-container">
+          <img src="./images/photo1.png" alt="" class="person-img" />
+          <p class="person-job">Product owner</p>
+        </div>
+        <p class="person-name">Bill Mahoney</p>
+      </section>
 
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
-    </div>
+      <section class="person-card even">
+        <div class="img-container">
+          <img src="./images/photo2.png" alt="" class="person-img" />
+          <p class="person-job">Art director</p>
+        </div>
+        <p class="person-name">Saba Cabrera</p>
+      </section>
+
+      <section class="person-card">
+        <div class="img-container">
+          <img src="./images/photo3.png" alt="" class="person-img" />
+          <p class="person-job">Tech lead</p>
+        </div>
+        <p class="person-name">Shae Le</p>
+      </section>
+
+      <section class="person-card even">
+        <div class="img-container">
+          <img src="./images/photo4.png" alt="" class="person-img" />
+          <p class="person-job">UX designer</p>
+        </div>
+        <p class="person-name">Skyla Lu</p>
+      </section>
+
+      <section class="person-card person5">
+        <div class="img-container">
+          <img src="./images/photo5.png" alt="" class="person-img" />
+          <p class="person-job">Developer</p>
+        </div>
+        <p class="person-name">Griff Richards</p>
+      </section>
+
+      <section class="person-card even">
+        <div class="img-container">
+          <img src="./images/photo6.png" alt="" class="person-img" />
+          <p class="person-job">Developer</p>
+        </div>
+        <p class="person-name">Stan John</p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a class="footer-link my-site" href="https://hooiyan.com" target="_blank">Hooi Yan</a> @ <a class="footer-link" href="https://devchallenges.io" target="blank">DevChallenges.io</a>
+    </footer>
+
   </body>
 </html>
